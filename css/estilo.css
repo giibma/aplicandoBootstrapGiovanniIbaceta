@@ -1,6 +1,6 @@
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 body{
-    background-color: #d9dde4;
+    background-color: #fcf8f8;
 }
 /* Estilo Carrusel */
 .carousel-inner img{
@@ -8,8 +8,16 @@ body{
     height: 500px;
 
 }
+/* estilo navbar */
+.nav-link{
+    font-size: x-large;
+    color: black;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
 /* Estilo Footer */
-
 
 a.btn-social,
 .btn-social
@@ -119,3 +127,9 @@ a.btn-social,
     background-color: #83c3f3;
 }
 
+/* Estilo Galeria */
+.carousel-inner p,h5{
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+}
